@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Foodeez Lite Child
+ Description:  Paradiso
+ Author:       Jennifer Allen
+ Author URI:   http://jallen29.com
+ Template:     foodeez-lite
+ Version:      1.0.0
+ Text Domain:  foodeez-lite-child
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+#full-division-box, #commentsbox, #featured-box, .bread-title, .skepost-meta, .container_inner{
+	display:none;
+}
+
+body, #full-division-box p, #full-division-box hr {
+        color: #404041;
+}
+#logo {
+	margin-top: 5px;
+}
+
+#logo .logo {
+	height: 225px;
+	clear: both;
+}
+.head-phone {
+   color: #404041;
+   font-size: 19px;
+   line-height: 1.5em;
+}
+
+.header-topbar .row-fluid {
+	height: 230px;
+	opacity: 0.97;
+    	filter: alpha(opacity=97); /* For IE8 and earlier */
+}
+.master-slider-parent {
+	margin-bottom: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.topbar_info {
+        float: left;
+        margin-left: 25px;
+}
+
+.page-content{
+       background-image: url("/paradiso/wp-content/uploads/2015/01/texture2.jpg");
+}
